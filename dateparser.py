@@ -99,7 +99,7 @@ correction_engine.add_correction("Marh", "March")
 correction_engine.add_correction("Apri1", "April")
 correction_engine.add_correction("Decemher", "December")
 
-date_strings = ["Marh 5, 2023", "Octobe 10, 2022", "Augus 15, 2023", "Apri1 5, 2023", "Decemher 12, 2023","25th of July, 2022","10 Apr 2024", "Apr 10th, 2024", "5 May 2024"]
+date_strings = ["Marh 5, 2023", "Octobe 10, 2022", "Augus 15, 2023", "Apri1 5, 2023", "Decemher 12, 2023","25th of July, 2022","September 10, 2024","10 Apr 2024", "Apr 10th, 2024", "5 May 2024"]
 
 for item in date_strings: 
     corrected_string = correction_engine.correct(item) 
